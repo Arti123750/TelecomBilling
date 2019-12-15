@@ -1,4 +1,4 @@
-package com.dineshonjava.dao;
+package com.telecomebiling.dao;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import com.dineshonjava.model.Customer;
+import com.telecomebiling.model.Customer;
 
 
 @Repository("customerDao")
@@ -44,22 +44,5 @@ public class CustomerDaoImpl implements CustomerDao {
 	
 
 	
-	/*
-	public void addEmployee(Customer employee) {
-		sessionFactory.getCurrentSession().saveOrUpdate(employee);
-	}
-
-	@SuppressWarnings("unchecked")
-	public List<Customer> listEmployeess() {
-		return (List<Customer>) sessionFactory.getCurrentSession().createCriteria(Customer.class).list();
-	}
-
-	public Customer getEmployee(int empid) {
-		return (Customer) sessionFactory.getCurrentSession().get(Customer.class, empid);
-	}
-
-	public void deleteEmployee(Customer employee) {
-		sessionFactory.getCurrentSession().createQuery("DELETE FROM Employee WHERE empid = "+employee.getEmpId()).executeUpdate();
-	}*/
-
+	
 

@@ -1,9 +1,6 @@
-package com.dineshonjava.bean;
+package com.telecomebiling.bean;
 
-/**
- * @author Dinesh Rajput
- *
- */
+
 public class CustomerBean {
 	private Integer customer_Id;
 	private String customer_Name;

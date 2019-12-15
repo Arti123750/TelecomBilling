@@ -1,12 +1,11 @@
-package com.dineshonjava.dao;
+package com.telecomebiling.service;
 
 import java.util.List;
 
-import com.dineshonjava.model.Customer;
+import com.telecomebiling.model.Customer;
 
 
-
-public interface CustomerDao {
+public interface CustomerService {
 	
 	public void addCustomer(Customer customer);
 

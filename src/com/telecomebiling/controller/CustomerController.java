@@ -1,4 +1,4 @@
-package com.dineshonjava.controller;
+package com.telecomebiling.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.dineshonjava.bean.CustomerBean;
-import com.dineshonjava.model.Customer;
-import com.dineshonjava.service.CustomerService;
+import com.telecomebiling.bean.CustomerBean;
+import com.telecomebiling.model.Customer;
+import com.telecomebiling.service.CustomerService;
 
 @Controller
 public class CustomerController {

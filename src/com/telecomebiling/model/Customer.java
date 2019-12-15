@@ -1,4 +1,4 @@
-package com.dineshonjava.model;
+package com.telecomebiling.model;
 
 import java.io.Serializable;
 

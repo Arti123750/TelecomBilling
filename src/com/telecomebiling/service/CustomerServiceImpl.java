@@ -1,4 +1,4 @@
-package com.dineshonjava.service;
+package com.telecomebiling.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dineshonjava.dao.CustomerDao;
-import com.dineshonjava.model.Customer;
+import com.telecomebiling.dao.CustomerDao;
+import com.telecomebiling.model.Customer;
 
 @Service("singleTransactionsService")
 
